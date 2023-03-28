@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon routesModules.js"
+  },
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "Node basics",
+  "main": "routes.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apurvaaa12/node.js.git"
+  },
+  "author": "Apurva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apurvaaa12/node.js/issues"
+  },
+  "homepage": "https://github.com/apurvaaa12/node.js#readme"
+}

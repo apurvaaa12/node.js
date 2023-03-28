@@ -15,7 +15,7 @@ res.write('</html>');
 return res.end();
 }
 
-if(url === '/message' && req.method==='POST'){
+if(url === '/message' && method==='POST'){
 
     fs.writeFileSync('message.txt',"Hello");
     res.statusCode=302;
@@ -32,7 +32,7 @@ if(url === '/message' && req.method==='POST'){
 // res.write('</html>');
 // res.end();
 });
-server.listen(3001);
+server.listen(3002);
 
 // const server2= http.createServer(function rqListener(req,res) {
     

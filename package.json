@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
   },
   "scripts": {
     "start": "nodemon routesModules.js"
@@ -9,7 +10,6 @@
   "version": "1.0.0",
   "description": "Node basics",
   "main": "routes.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apurvaaa12/node.js.git"
